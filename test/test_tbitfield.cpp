@@ -11,6 +11,7 @@ TEST(TBitField, can_get_length)
 {
   TBitField bf(3);
 
+
   EXPECT_EQ(3, bf.GetLength());
 }
 
